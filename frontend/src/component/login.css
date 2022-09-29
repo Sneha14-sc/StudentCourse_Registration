@@ -1,0 +1,74 @@
+body {
+    background-image: linear-gradient(135deg, #a3c4d4da 10%, #c2d6ee9a 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Open Sans", sans-serif;
+    color: #333333;
+    
+  }
+  
+  .box-form {
+    margin: 2rem auto;
+    width: 80%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    box-shadow: 0 0 20px 6px #090b6f85;
+  }
+  @media (max-width: 980px) {
+    .box-form {
+      text-align: center;
+      align-content: center;
+      align-items: center;
+    }
+  }
+  .box-form div {
+    height: 90%;
+  }
+  .box-form .left {
+    width: 100%;
+    color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://i.pinimg.com/736x/5d/73/ea/5d73eaabb25e3805de1f8cdea7df4a42--tumblr-backgrounds-iphone-phone-wallpapers-iphone-wallaper-tumblr.jpg");
+    overflow: hidden;
+  }
+  .box-form .left .overlay {
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    background: #5961f9ad;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  .box-form .left .overlay h1 {
+    font-size: 6vmax;
+    line-height: 1;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+  .box-form .left .overlay span p {
+    margin-top: 30px;
+    font-weight: 900;
+  }
+  #signInDiv  {
+    padding-bottom: 1rem;
+    display: inline-block;
+  }
+  
+  .box-form .left .overlay span a:last-child {
+    background: #1dcaff;
+    margin-left: 30px;
+  }
+
+  button:hover{
+    font-family: FontAwesome;
+    content: ' \f00c';
+    color: #fff;
+    cursor: pointer;
+    background: #70F570;
+  }
+ 
